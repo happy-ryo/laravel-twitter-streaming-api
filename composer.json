@@ -1,11 +1,11 @@
 {
-    "name": "spatie/laravel-twitter-streaming-api",
+    "name": "happy-ryo/laravel-twitter-streaming-api",
     "description": "Easily work with the Twitter Streaming API in a Laravel app",
     "keywords": [
         "spatie",
         "laravel-twitter-streaming-api"
     ],
-    "homepage": "https://github.com/spatie/laravel-twitter-streaming-api",
+    "homepage": "https://github.com/happy-ryo/laravel-twitter-streaming-api",
     "license": "MIT",
     "authors": [
         {
@@ -13,13 +13,23 @@
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
             "role": "Developer"
+        },{
+            "name": "happy_ryo",
+            "email": "iwama.ryo.0731@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.0",
         "illuminate/support": "^5.3",
-        "spatie/twitter-streaming-api": "^1.0.0"
+        "happy-ryo/twitter-streaming-api": "1.3.1"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/happy-ryo/twitter-streaming-api.git"
+        }
+    ],
     "require-dev": {
 
         "phpunit/phpunit": "5.*",
